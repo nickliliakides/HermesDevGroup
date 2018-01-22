@@ -1,0 +1,215 @@
+﻿body {
+}
+
+#brandName {
+    font-family: 'Bangers', cursive;
+    font-size:28px;
+    color:#3C3C47;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*.navbar.navbar-light.bg-light.fixed-top {
+    opacity:0.7;
+}*/
+
+.logo {
+    width:90px;
+    height:60px;
+    box-shadow:3px 3px #ADADAD;
+    text-align:right;
+}
+
+.intro1 {
+    font-family: 'Squada One', cursive;
+    margin-top:-60px !important;
+    color:#F8F9FA;
+    text-shadow:2px 2px 2px #696767 !important;
+    padding-top:10px !important;
+
+}
+
+.intro2 {
+    font-family: 'Alegreya SC', serif;
+}
+
+.content-section-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left:20px;
+  margin-right:20px;
+  text-align: center;
+  color: black;
+  font-size:24px;
+  margin-bottom:30px;
+  /*height: 125vh;*/
+  /*background: url(../img/desktop.png) no-repeat center center;
+  background-size: cover;*/
+ 
+}
+
+.aboutImg {
+    width:200px;
+    height:160px;
+    border-radius:18px;
+    margin: 15px 15px 15px 30px;
+}
+
+.aboutText {
+    padding-top:25px;
+    /*padding-left:100px;
+    padding-right:100px;*/
+    font-family: 'Libre Baskerville', serif;
+    font-size:22px;
+}
+
+.sectionTitle {
+    font-family: 'Shrikhand', cursive;
+    margin-top:56px;
+    text-shadow:1px 1px 2px #3c3b3b;
+}
+
+.section-heading, .lead, .mail {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.banner {
+    padding-top:1px;
+}
+
+#contactTitle {
+    margin-top:60px;
+}
+
+#message {
+    height:146px;
+}
+
+#emailForm {
+    margin-top:60px;
+}
+
+#map {
+    margin-top:60px;
+     width: 70%;
+     height: 280px;
+     border-radius:12px;
+     opacity:0.6;
+}
+
+.smi {
+    margin:0 40px 0 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    /*.aboutText {
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }*/
+    .intro1 {
+        margin-top:70px !important;
+        
+        font-size:40px;
+    }
+    .intro2 {
+        font-size:24px;
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /*.aboutText {
+    padding-top:80px;
+     padding-left:30px;
+    padding-right:30px;
+
+    }*/
+    .intro1 {
+         margin-top:60px !important;
+        font-size:32px !important;
+    }
+    .intro2 {
+        font-size:20px;
+    }
+    .aboutImg {
+        width: 180px;
+        height: 148px;
+    }
+    .aboutText {
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width: 496px) {
+     .aboutImg {
+        width: 160px;
+        height: 134px;
+    }
+    
+      .intro1 {
+         margin-top:50px !important;
+    }
+      .aboutText {
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+     .aboutImg {
+        width: 140px;
+        height: 120px;
+        margin: 10px 10px 10px 16px;
+    }
+    
+        .intro1 {
+         margin-top:70px !important;
+    }
+
+        p {
+            font-size:16px !important;
+        }
+
+         .aboutText {
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .aboutImg {
+        width: 120px;
+        height: 104px;
+        margin: 6px 6px 6px 10px;
+    }
+   
+       .intro1 {
+         margin-top:80px !important;
+    }
+
+        .aboutText {
+        font-size:14px;
+    }
+}
+
+.nan.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+    width:auto;
+}
+
+.bg-light {
+    background-color: rgba(248, 249, 250, 0.9)!important;
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        margin-left: 200px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        margin-left: 280px !important;
+    }
+}
